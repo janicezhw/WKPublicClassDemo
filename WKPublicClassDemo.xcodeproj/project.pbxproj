@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9B3FB011E542ED400E277E0 /* WKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B3FB001E542ED400E277E0 /* WKBaseViewController.m */; };
 		A9BF0A101E5190A1000EFDE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BF0A0F1E5190A1000EFDE4 /* main.m */; };
 		A9BF0A131E5190A1000EFDE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BF0A121E5190A1000EFDE4 /* AppDelegate.m */; };
 		A9BF0A161E5190A1000EFDE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BF0A151E5190A1000EFDE4 /* ViewController.m */; };
@@ -16,6 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A9B3FAFD1E542B0A00E277E0 /* WKHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKHelpers.h; sourceTree = "<group>"; };
+		A9B3FAFE1E542E5800E277E0 /* WKConsts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKConsts.h; sourceTree = "<group>"; };
+		A9B3FAFF1E542ED400E277E0 /* WKBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKBaseViewController.h; sourceTree = "<group>"; };
+		A9B3FB001E542ED400E277E0 /* WKBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKBaseViewController.m; sourceTree = "<group>"; };
 		A9BF0A0B1E5190A1000EFDE4 /* WKPublicClassDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKPublicClassDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9BF0A0F1E5190A1000EFDE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A9BF0A111E5190A1000EFDE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +31,7 @@
 		A9BF0A1A1E5190A1000EFDE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9BF0A1D1E5190A1000EFDE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9BF0A1F1E5190A1000EFDE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9BF0A281E51937A000EFDE4 /* WKDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKDefine.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		A9BF0A0D1E5190A1000EFDE4 /* WKPublicClassDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A9BF0A251E51934E000EFDE4 /* WKPublicClass */,
 				A9BF0A141E5190A1000EFDE4 /* ViewController.h */,
 				A9BF0A151E5190A1000EFDE4 /* ViewController.m */,
 				A9BF0A0E1E5190A1000EFDE4 /* Supporting Files */,
@@ -77,6 +84,18 @@
 				A9BF0A0F1E5190A1000EFDE4 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9BF0A251E51934E000EFDE4 /* WKPublicClass */ = {
+			isa = PBXGroup;
+			children = (
+				A9BF0A281E51937A000EFDE4 /* WKDefine.h */,
+				A9B3FAFD1E542B0A00E277E0 /* WKHelpers.h */,
+				A9B3FAFE1E542E5800E277E0 /* WKConsts.h */,
+				A9B3FAFF1E542ED400E277E0 /* WKBaseViewController.h */,
+				A9B3FB001E542ED400E277E0 /* WKBaseViewController.m */,
+			);
+			path = WKPublicClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9BF0A161E5190A1000EFDE4 /* ViewController.m in Sources */,
+				A9B3FB011E542ED400E277E0 /* WKBaseViewController.m in Sources */,
 				A9BF0A131E5190A1000EFDE4 /* AppDelegate.m in Sources */,
 				A9BF0A101E5190A1000EFDE4 /* main.m in Sources */,
 			);
@@ -312,6 +332,7 @@
 				A9BF0A241E5190A1000EFDE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
